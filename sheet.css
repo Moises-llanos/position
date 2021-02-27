@@ -1,0 +1,99 @@
+body{
+    background: lightblue;
+}
+
+.contenedor{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 150px auto;
+    position: relative;
+}
+
+.section-div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+   
+    
+}
+
+.section-div.bloque1{
+    background: red;
+    position: absolute;
+    
+   
+}
+
+.section-div.bloque2{
+    background: gray;
+    position: absolute;
+    right: 0;
+    
+
+}
+.section-div.bloque3{
+    background: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.section-div.bloque4{
+    background: purple;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+.section-div.bloque5{
+    background: rgb(65, 65, 59);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    
+}
+
+.social{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.social-link{
+    width: 50px;
+    height: 50px;
+    display: block;
+    border: 1px solid red;
+    background-size: 50px ;
+    background-repeat: no-repeat;
+    
+}
+
+.social-link.facebook{
+    background-image: url(gmail-logo-16.png);
+}
+
+.contenedor2{
+    background: red;
+    width: 300px;
+    height: 300px;
+   margin: 50px 0 0 60px; 
+   position: relative;
+  
+    
+
+}
+
+.hijo{
+    background: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: -1;
+    left: -30px;
+   
+    
+}
